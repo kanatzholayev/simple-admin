@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
+import { colors } from '../../utils/colors';
 import { sizes } from '../../utils/sizes';
 
 export const ModalOverlayStyled = styled.div`
 	align-items: center;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: ${colors[`bg-overlay`]};
 	display: flex;
 	height: 100vh;
 	justify-content: center;
@@ -17,7 +18,7 @@ export const ModalOverlayStyled = styled.div`
 
 export const ModalStyled = styled.div`
 	align-items: center;
-	background-color: #f9fafb;
+	background-color: ${colors[`bg-modal`]};
 	border-radius: 25px;
 	display: flex;
 	flex-direction: column;
@@ -35,7 +36,7 @@ export const ModalStyled = styled.div`
 
 export const ModalCloseButtonStyled = styled.button`
 	align-items: center;
-	background-color: #ebebf0;
+	background-color: ${colors[`bg-primary`]};
 	border: none;
 	border-radius: 15px;
 	cursor: pointer;

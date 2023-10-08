@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
+import { colors } from '../../utils/colors';
 import { sizes } from '../../utils/sizes';
 
 export const TeamWrapperStyled = styled.div`
-	background-color: #ffffff;
+	background-color: ${colors[`bg-white`]};
 	border-radius: 15px;
 	flex-grow: 1;
 	margin: 20px 100px;

@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 
+import { colors } from '../../utils/colors';
 import { sizes } from '../../utils/sizes';
 
 export type ButtonSize = 'small' | 'big';
@@ -9,9 +10,9 @@ interface ButtonStyledProps {
 }
 
 export const ButtonStyled = styled.button<ButtonStyledProps>`
-	background-color: #32c076;
+	background-color: ${colors[`bg-button`]};
 	border: none;
-	color: #f9fafb;
+	color: ${colors[`text-light`]};
 	cursor: pointer;
 	font-family: 'Futura PT';
 	font-weight: 500;

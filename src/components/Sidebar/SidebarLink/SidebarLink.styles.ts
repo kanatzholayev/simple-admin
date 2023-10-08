@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../../utils/colors';
 import { sizes } from '../../../utils/sizes';
 
 export const SidebarLinkImageStyled = styled.div`
@@ -14,7 +15,7 @@ export const SidebarLinkImageStyled = styled.div`
 `;
 
 export const SidebarLinkTitleStyled = styled.p`
-	color: #9494a0;
+	color: ${colors[`text-secondary`]};
 	font-family: 'Futura PT';
 	font-size: 16px;
 	font-weight: 500;
@@ -40,6 +41,6 @@ export const SidebarLinkWrapperStyled = styled.div`
 	}
 
 	&:last-child ${SidebarLinkTitleStyled} {
-		color: #ff9e90;
+		color: ${colors[`text-danger`]};
 	}
 `;

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../../utils/colors';
 import { sizes } from '../../../utils/sizes';
 
 export const ProfileInfoWrapperStyled = styled.div`
@@ -48,7 +49,7 @@ export const ProfileInfoStyled = styled.div`
 `;
 
 export const ProfileNameStyled = styled.h4`
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	font-family: 'Futura PT Demi';
 	font-size: 16px;
 	line-height: 20px;
@@ -56,7 +57,7 @@ export const ProfileNameStyled = styled.h4`
 `;
 
 export const ProfilePositionStyled = styled.p`
-	color: #9494a0;
+	color: ${colors[`text-secondary`]};
 	font-family: 'Futura PT Book';
 	font-size: 14px;
 	line-height: 20px;

@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
+import { colors } from '../../../utils/colors';
 import { sizes } from '../../../utils/sizes';
 
 export const InviteHeaderStyled = styled.h3`
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	font-family: 'Futura PT Demi';
 	font-size: 34px;
 	line-height: 44px;
@@ -24,9 +25,9 @@ export const InviteWrapperStyled = styled.div`
 
 export const InputStyled = styled.input`
 	background: transparent;
-	border: 1px solid #c1c1cb;
+	border: 1px solid ${colors.border};
 	border-radius: 15px;
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	font-family: 'Futura PT Book';
 	font-size: 20px;
 	height: 61px;
@@ -46,7 +47,7 @@ export const InputStyled = styled.input`
 `;
 
 export const ErrorStyled = styled.span`
-	color: red;
+	color: ${colors[`text-danger`]};
 	font-family: 'Futura PT Book';
 	font-size: 18px;
 `;

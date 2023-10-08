@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../../utils/colors';
 import { sizes } from '../../../utils/sizes';
 
 export const UserActionsButtonStyled = styled.button`
@@ -24,7 +25,7 @@ export const UserActionsWrapperStyled = styled.div`
 
 export const UserActionsListStyled = styled.ul`
 	align-items: start;
-	background-color: #f9fafb;
+	background-color: ${colors[`bg-modal`]};
 	border-radius: 15px;
 	box-shadow: -30px 30px 50px rgba(28, 28, 30, 0.1);
 	display: flex;
@@ -57,7 +58,7 @@ export const UserActionsListStyled = styled.ul`
 export const UserActionStyled = styled.button`
 	background: transparent;
 	border: 0;
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	cursor: pointer;
 	font-family: 'Futura PT Book';
 	font-size: 18px;
@@ -68,7 +69,7 @@ export const UserActionStyled = styled.button`
 	width: 100%;
 
 	&:hover {
-		color: #9494a0;
+		color: ${colors[`text-secondary`]};
 	}
 
 	@media (max-width: ${sizes.mobile}) {

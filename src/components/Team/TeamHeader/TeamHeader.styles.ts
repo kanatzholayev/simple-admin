@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../../utils/colors';
 import { sizes } from '../../../utils/sizes';
 
 export const TeamHeaderContainerStyled = styled.div`
@@ -16,7 +17,7 @@ export const TeamHeaderContainerStyled = styled.div`
 `;
 
 export const TitleStyled = styled.h1`
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	font-family: 'Futura PT Demi';
 	font-size: 26px;
 	line-height: 44px;

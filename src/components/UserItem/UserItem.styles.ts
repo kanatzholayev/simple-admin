@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../utils/colors';
 import { sizes } from '../../utils/sizes';
 
 export const UserItemStyled = styled.li`
@@ -10,7 +11,7 @@ export const UserItemStyled = styled.li`
 	transition: all 0.2s ease-in-out;
 
 	&:hover {
-		background-color: #efeff6;
+		background-color: ${colors[`bg-secondary`]};
 	}
 
 	&:last-child {

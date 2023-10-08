@@ -1,0 +1,15 @@
+export const colors = {
+	'text-primary': `#424f5e`,
+	'text-secondary': `#9494a0`,
+	'text-danger': `#ff9e90`,
+	'purple-100': `#5856d6`,
+	'purple-200': `#5A57FF`,
+	'text-light': `#f9fafb`,
+	'bg-primary': `#ebebf0`,
+	'bg-secondary': `#efeff6`,
+	'bg-white': `#ffffff`,
+	'bg-button': `#32c076`,
+	'bg-modal': `#f9fafb`,
+	'bg-overlay': `rgba(0, 0, 0, 0.1)`,
+	border: `#c1c1cb`,
+};

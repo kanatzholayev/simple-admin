@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../utils/colors';
 import { sizes } from '../../utils/sizes';
 
 export const SearchWrapperStyled = styled.div`
@@ -9,9 +10,9 @@ export const SearchWrapperStyled = styled.div`
 
 export const SearchInputStyled = styled.input`
 	background: transparent;
-	border: 1px #c1c1cb solid;
+	border: 1px ${colors.border} solid;
 	border-radius: 10px;
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	font-family: 'Futura PT Book';
 	font-size: 18px;
 	height: 36px;

@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 
+import { colors } from '../../utils/colors';
 import { sizes } from '../../utils/sizes';
 import { ProfileInfoStyled } from './ProfileInfo/ProfileInfo.styles';
 import { SidebarLinkTitleStyled } from './SidebarLink/SidebarLink.styles';
@@ -30,7 +31,7 @@ export const SidebarLinksContainerStyled = styled.div`
 `;
 
 export const SidebarWrapperStyled = styled.aside<SidebarWrapperStyledProps>`
-	background-color: #ffffff;
+	background-color: ${colors[`bg-white`]};
 	border-top-right-radius: 15px;
 	box-shadow: 0 0 50px rgba(28, 28, 30, 0.2);
 	height: 100vh;

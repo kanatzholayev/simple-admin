@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../../utils/colors';
 import { sizes } from '../../../utils/sizes';
 
 export const UserInfoContainerStyled = styled.div`
@@ -25,7 +26,7 @@ export const UserInfoWrapperStyled = styled.div`
 `;
 
 export const UserNameStyled = styled.h3`
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	font-family: 'Futura PT Demi';
 	font-size: 18px;
 	line-height: 20px;
@@ -37,7 +38,7 @@ export const UserNameStyled = styled.h3`
 `;
 
 export const UserUnauthorizedStyled = styled.span`
-	color: #9494a0;
+	color: ${colors[`text-secondary`]};
 	font-family: 'Futura PT Demi';
 	font-size: 18px;
 	line-height: 20px;
@@ -49,7 +50,7 @@ export const UserUnauthorizedStyled = styled.span`
 `;
 
 export const UserEmailStyled = styled.p`
-	color: #9494a0;
+	color: ${colors[`text-secondary`]};
 	font-family: 'Futura PT Book';
 	font-size: 18px;
 	line-height: 20px;
@@ -79,9 +80,9 @@ interface UserPermissionStyledProps {
 
 export const UserPermissionStyled = styled.li<UserPermissionStyledProps>`
 	align-items: center;
-	border: 1px solid ${p => (p.$isAdmin ? `#5A57FF` : `#c1c1cb`)};
+	border: 1px solid ${p => (p.$isAdmin ? colors[`purple-200`] : colors.border)};
 	border-radius: 10px;
-	color: ${p => (p.$isAdmin ? `#5A57FF` : `#9494a0`)};
+	color: ${p => (p.$isAdmin ? colors[`purple-200`] : colors[`text-secondary`])};
 	display: flex;
 	font-family: 'Futura PT Book';
 	font-size: 16px;

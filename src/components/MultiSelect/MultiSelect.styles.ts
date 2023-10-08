@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { colors } from '../../utils/colors';
 import { sizes } from '../../utils/sizes';
 
 export const MultiSelectWrapperStyled = styled.div`
@@ -16,9 +17,9 @@ export const SelectSpanStyled = styled.span`
 
 export const SelectStyled = styled.button`
 	background: transparent;
-	border: 1px solid #c1c1cb;
+	border: 1px solid ${colors.border};
 	border-radius: 15px;
-	color: #9494a0;
+	color: ${colors[`text-secondary`]};
 	font-family: 'Futura PT Book';
 	font-size: 20px;
 	height: 61px;
@@ -52,7 +53,7 @@ export const SelectStyled = styled.button`
 `;
 
 export const SelectOptionsListStyled = styled.ul`
-	background: #f9fafb;
+	background: ${colors[`bg-modal`]};
 	border-radius: 15px;
 	bottom: 0;
 	box-shadow: -30px 30px 50px rgba(28, 28, 30, 0.1);
@@ -77,7 +78,7 @@ export const SelectOptionStyled = styled.li`
 `;
 
 export const CheckmarkStyled = styled.span`
-	border: 1px solid #c1c1cb;
+	border: 1px solid ${colors.border};
 	border-radius: 5px;
 	height: 16px;
 	left: 0;
@@ -111,7 +112,7 @@ export const CheckboxStyled = styled.input`
 `;
 
 export const SelectOptionLabelStyled = styled.label`
-	color: #424f5e;
+	color: ${colors[`text-primary`]};
 	cursor: pointer;
 	display: block;
 	font-family: 'Futura PT Book';
@@ -122,8 +123,8 @@ export const SelectOptionLabelStyled = styled.label`
 	user-select: none;
 
 	& ${CheckboxStyled}:checked ~ ${CheckmarkStyled} {
-		background-color: #5856d6;
-		border: 1px solid #5856d6;
+		background-color: ${colors[`purple-100`]};
+		border: 1px solid ${colors[`purple-100`]};
 	}
 	& ${CheckboxStyled}:checked ~ ${CheckmarkStyled}::after {
 		opacity: 1;
