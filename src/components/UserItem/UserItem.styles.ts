@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import { colors } from '../../utils/colors';
-import { sizes } from '../../utils/sizes';
+import { colors } from '../../utils/tokens/colors';
+import { sizes } from '../../utils/tokens/sizes';
 
 export const UserItemStyled = styled.li`
 	display: flex;

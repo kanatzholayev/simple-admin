@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
-import { colors } from '../../utils/colors';
-import { sizes } from '../../utils/sizes';
+import { colors } from '../../utils/tokens/colors';
+import { sizes } from '../../utils/tokens/sizes';
 
 export type ButtonSize = 'small' | 'big';
 

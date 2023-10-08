@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { sizes } from '../../utils/sizes';
+import { sizes } from '../../utils/tokens/sizes';
 
 export const MainStyled = styled.main`
 	display: flex;

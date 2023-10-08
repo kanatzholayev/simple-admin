@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
-import { colors } from '../../utils/colors';
-import { sizes } from '../../utils/sizes';
+import { colors } from '../../utils/tokens/colors';
+import { sizes } from '../../utils/tokens/sizes';
 import { ProfileInfoStyled } from './ProfileInfo/ProfileInfo.styles';
 import { SidebarLinkTitleStyled } from './SidebarLink/SidebarLink.styles';
 

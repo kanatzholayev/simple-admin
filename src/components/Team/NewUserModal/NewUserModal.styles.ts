@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import { colors } from '../../../utils/colors';
-import { sizes } from '../../../utils/sizes';
+import { colors } from '../../../utils/tokens/colors';
+import { sizes } from '../../../utils/tokens/sizes';
 
 export const InviteHeaderStyled = styled.h3`
 	color: ${colors[`text-primary`]};
