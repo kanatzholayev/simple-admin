@@ -40,7 +40,7 @@ export const Team: FC<TeamProps> = ({ setIsSidebarOpen }) => {
 			<TeamHeader searchText={searchText} searchHandler={searchHandler} setIsSidebarOpen={setIsSidebarOpen} />
 			<TeamListStyled>
 				{filteredUsers.map(user => (
-					<UserItem user={user} key={user.email} openDeletePopup={openDeletePopup} />
+					<UserItem user={user} key={user.uuid} openDeletePopup={openDeletePopup} />
 				))}
 			</TeamListStyled>
 			<DeletePopup>Пользователь успешно удален</DeletePopup>
