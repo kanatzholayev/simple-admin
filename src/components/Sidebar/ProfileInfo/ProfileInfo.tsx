@@ -11,7 +11,7 @@ import {
 export const ProfileInfo: FC = () => (
 	<ProfileInfoWrapperStyled>
 		<ProfileImageWrapperStyled>
-			<img src='./public/profile.png' alt='profile' />
+			<img src='./profile.png' alt='profile' />
 		</ProfileImageWrapperStyled>
 		<ProfileInfoStyled>
 			<ProfileNameStyled>Артем Иванов</ProfileNameStyled>

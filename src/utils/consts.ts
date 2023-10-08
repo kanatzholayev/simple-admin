@@ -10,39 +10,39 @@ export const optionsList = [
 
 export const sidebarLinks = [
 	{
-		imgSrc: `public/sidebar-icons/analytics.png`,
+		imgSrc: `./sidebar-icons/analytics.png`,
 		title: `Аналитика`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/profile-icon.png`,
+		imgSrc: `./sidebar-icons/profile-icon.png`,
 		title: `Профиль`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/moderation.png`,
+		imgSrc: `./sidebar-icons/moderation.png`,
 		title: `Модерация`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/chat.png`,
+		imgSrc: `./sidebar-icons/chat.png`,
 		title: `Чаты`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/banners.png`,
+		imgSrc: `./sidebar-icons/banners.png`,
 		title: `Баннеры`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/team.png`,
+		imgSrc: `./sidebar-icons/team.png`,
 		title: `Команда`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/blog.png`,
+		imgSrc: `./sidebar-icons/blog.png`,
 		title: `Блог`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/currency.png`,
+		imgSrc: `./sidebar-icons/currency.png`,
 		title: `Курс валют`,
 	},
 	{
-		imgSrc: `public/sidebar-icons/logout.png`,
+		imgSrc: `./sidebar-icons/logout.png`,
 		title: `Выйти`,
 	},
 ];

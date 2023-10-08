@@ -39,7 +39,7 @@ export const usersSlice = createSlice({
 				email: action.payload.email,
 				isAuthorized: false,
 				permissions: action.payload.permissions,
-				image: `./public/profileMock.svg`,
+				image: `./profileMock.svg`,
 			};
 			state.users = [...state.users, newUser];
 		},

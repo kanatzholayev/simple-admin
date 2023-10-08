@@ -17,7 +17,7 @@ export const Sidebar: FC<SidebarProps> = ({ isSidebarOpen, setIsSidebarOpen }) =
 		onMouseOut={() => window.innerWidth > 425 && setIsSidebarOpen(false)}
 	>
 		<SidebarLogoStyled>
-			<img src='./public/logo.svg' alt='Logo' />
+			<img src='./logo.svg' alt='Logo' />
 		</SidebarLogoStyled>
 		<ProfileInfo />
 		<SidebarLinksContainerStyled>
